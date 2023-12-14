@@ -1,0 +1,95 @@
+.login-page-container{
+    display: flex;
+}
+
+.login-form-container{
+    background: white;
+    border: none;
+    width: 35vw;
+    padding: 50px 70px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10pt;
+    
+}
+
+input{
+    border: none;
+    background: none;
+}
+
+.login-form-title{
+    text-align: center;
+    font-size: 26pt;
+}
+
+.login-form-title-mentaldoc{
+    font-weight: bold;
+    color: #30ADBE;
+}
+
+.login-form-email-container{
+    background: rgb(240, 240, 240);
+    border-radius: 8pt;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.login-form-password-container{
+    background: rgb(240, 240, 240);
+    border-radius: 8pt;
+    padding: 10px;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.login-form-password-eye{
+    position: absolute;
+    right: 10px;
+    top: 17px;
+}
+
+.login-form-remember-me-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.login-form-button-login{
+    background: #30ADBE;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login-form-button-login-via-google{
+    background: none;
+    border: none;
+    width: 100%;
+    border-radius: 8pt;
+    padding: 10px;
+    box-shadow: 0px 0px 3px gray;
+    margin-bottom: 20px;
+}
+
+.login-form-or-container{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form-dont-have-account-container{
+    width: 100%;
+    text-align: center;
+}
+
+.login-form-text-input{
+    width: 85%;
+    height: 30px;
+}

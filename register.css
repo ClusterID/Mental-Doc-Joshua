@@ -1,0 +1,110 @@
+.register-page-container{
+    display: flex;
+}
+
+.register-form-container{
+    background: white;
+    border: none;
+    width: 35vw;
+    padding: 50px 70px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10pt;
+    
+}
+
+input{
+    border: none;
+    background: none;
+}
+
+.register-form-title{
+    text-align: center;
+    font-size: 26pt;
+}
+
+.register-form-title-mentaldoc{
+    font-weight: bold;
+    color: #30ADBE;
+}
+
+.register-form-username-container{
+    background: rgb(240, 240, 240);
+    border-radius: 8pt;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.register-form-email-container{
+    background: rgb(240, 240, 240);
+    border-radius: 8pt;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.register-form-password-container{
+    background: rgb(240, 240, 240);
+    border-radius: 8pt;
+    padding: 10px;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.register-form-confirm-password-container{
+    background: rgb(240, 240, 240);
+    border-radius: 8pt;
+    padding: 10px;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.register-form-password-eye{
+    position: absolute;
+    right: 10px;
+    top: 17px;
+}
+
+.register-form-remember-me-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.register-form-button-register{
+    background: #30ADBE;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.register-form-button-login-via-google{
+    background: none;
+    border: none;
+    width: 100%;
+    border-radius: 8pt;
+    padding: 10px;
+    box-shadow: 0px 0px 3px gray;
+    margin-bottom: 20px;
+}
+
+.register-form-or-container{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-form-already-have-account-container{
+    width: 100%;
+    text-align: center;
+}
+
+.register-form-text-input{
+    width: 85%;
+    height: 30px;
+}

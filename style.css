@@ -1,0 +1,66 @@
+/* HOME PAGE */
+.border-radius
+{
+    border-radius: 8pt;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-brand
+{
+    color: #30ADBE;
+}
+
+.nav-link
+{
+    color: #011981;
+}
+
+.navbar-item-active
+{
+    padding-left: 60px;
+}
+
+.navbarcontent
+{
+    margin-left: 70px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.height
+{
+    height: 700px;
+}
+
+body
+{
+    height: 4200px;
+    background-image: linear-gradient(skyblue, white, skyblue, white, skyblue, white);
+}
+
+.subtitle
+{
+    /* font-family: Poppins-Medium; */
+    font-size: 45px;
+    color: #30ADBE;
+}
+
+/* ================================================================================================================================================================================================== */
+
+
+
+
+
+
+
+/* LOGIN */
+
+#bodyLogin{
+    background-color: blue;
+}
+
+/* ================================================================================================================================================================================================== */
